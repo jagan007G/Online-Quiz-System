@@ -106,19 +106,11 @@ public class Main implements  ActionListener
                 {JOptionPane.showMessageDialog(null,"Enter candidate name");}
                 else if(t2.getText().equals(""))
                 {JOptionPane.showMessageDialog(null,"Enter Roll num");}
-                else if(t1.getText().equals("jagan")&&(t2.getText().equals("2020PECCS293")))
+                else if(t1.getText().equals("NAME")&&(t2.getText().equals("ROLLNO")))
                 {f.setVisible(false);
                     new Quiz1();
                 }
-                else if(t1.getText().equals("jagadeesh")&&(t2.getText().equals("2020PECCS292")))
-                {f.setVisible(false);
-                    new Quiz1();
-                }
-                else if(t1.getText().equals("tharani")&&(t2.getText().equals("2020PECCS197")))
-                {f.setVisible(false);
-                    new Quiz1();
-                }
-                else if(t1.getText().equals("aneesh ashvat")&&(t2.getText().equals("2020PECCS419")))
+                else if(t1.getText().equals("Name")&&(t2.getText().equals("PASSWORD")))
                 {f.setVisible(false);
                     new Quiz1();
                 }
